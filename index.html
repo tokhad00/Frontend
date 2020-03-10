@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Система по продаже автобусных билетов</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+  </head>
+
+  <body id="top">
+    <header id="home">
+      <nav>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+              <nav class="pull">
+                <ul class="top-nav">
+                  <li><a href="#">Главная <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#">Вход <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#">Договор оферты <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#">Часто задаваемые вопросы <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#">Новости <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#">Работа сайта <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                  <li><a href="#">О нас <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="topbar" id="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-right navicon">
+              <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center inner">
+              <h1 class="animated fadeInDown">TICKETBUS</h1>
+              <p class="animated fadeInUp delay-05s">Система продажи билетов</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="route text-center section-padding" id="route">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wp1">
+            <h1 class="arrow">Выбор маршрута</h1>
+            <form action="#" id="chooseRoute">
+              <p>
+                <label for="from">Откуда</label>
+              </p>
+              <p>
+                <select name="from" required placeholder="Выберите откуда">
+                  <option disabled selected>Пункт отправления</option>
+                  <option value="minsk-centr">МИНСК АВ-Центральный</option> 
+                  <option value="minsk-slav">МИНСК АС-Славинского</option>
+                  <option value="minsk-dr">МИНСК АС-Дружная</option>
+                  <option value="minsk-avto">МИНСК АС-Автозаводская</option>
+                  <option value="aeroport">НАЦ АЭРОПОРТ МИНСК</option>
+                  <option value="mogilev">МОГИЛЕВ АВ</option>
+                  <option value="vitebsk">ВИТЕБСК АВ</option>
+                  <option value="grodno">ГРОДНО АВ</option>
+                  <option value="gomel">ГОМЕЛЬ АВ</option>
+                  <option value="brest">БРЕСТ АВ</option>
+                  <option value="baran">БАРАНОВИЧИ АВ</option>
+                  <option value="borisov">БОРИСОВ АВ</option>
+                  <option value="pinsk">ПИНСК АВ</option>
+                  <option value="orsha">ОРША АВ</option>
+                  <option value="lida">ЛИДА АВ</option>
+                  <option value="moscow">МОСКВА НОВОЯСЕНЕВСКАЯ АС</option>
+                  <option value="kyiv">КИЕВ АВ Московский</option>
+                  <option value="warshaw">ВАРШАВА АВ МОДЛИН</option>
+                  <option value="vilnius">ВИЛЬНЮС АЭРОПОРТ</option>
+                  <option value="prague">ПРАГА АВ ЖЕЛЕВСКОГО</option>
+                  <option value="vroclav">ВРОЦЛАВ АВ</option>
+                </select>
+              </p>
+              <p>
+                <label for="to">Куда</label>
+              </p>
+              <p>
+                <select name="to" required>
+                  <option disabled selected>Пункт прибытия</option>
+                  <option value="minsk-centr">МИНСК АВ-Центральный</option> 
+                  <option value="minsk-slav">МИНСК АС-Славинского</option>
+                  <option value="minsk-dr">МИНСК АС-Дружная</option>
+                  <option value="minsk-avto">МИНСК АС-Автозаводская</option>
+                  <option value="aeroport">НАЦ АЭРОПОРТ МИНСК</option>
+                  <option value="mogilev">МОГИЛЕВ АВ</option>
+                  <option value="vitebsk">ВИТЕБСК АВ</option>
+                  <option value="grodno">ГРОДНО АВ</option>
+                  <option value="gomel">ГОМЕЛЬ АВ</option>
+                  <option value="brest">БРЕСТ АВ</option>
+                  <option value="baran">БАРАНОВИЧИ АВ</option>
+                  <option value="borisov">БОРИСОВ АВ</option>
+                  <option value="pinsk">ПИНСК АВ</option>
+                  <option value="orsha">ОРША АВ</option>
+                  <option value="lida">ЛИДА АВ</option>
+                  <option value="moscow">МОСКВА НОВОЯСЕНЕВСКАЯ АС</option>
+                  <option value="kyiv">КИЕВ АВ Московский</option>
+                  <option value="warshaw">ВАРШАВА АВ МОДЛИН</option>
+                  <option value="vilnius">ВИЛЬНЮС АЭРОПОРТ</option>
+                  <option value="prague">ПРАГА АВ ЖЕЛЕВСКОГО</option>
+                  <option value="vroclav">ВРОЦЛАВ АВ</option>
+                </select>
+              </p>
+              <p>
+                <label for="date">Дата поездки </label>
+              </p>
+              <p>
+                <input type="date" id="date" name="date" placeholder="Дата поездки" required/>
+              </p>
+              <p>
+                <input type="submit" name="search" id="search" value="Поиск">
+              </p>
+              <p>
+                <button id="ordered">Заказанные билеты</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features text-center section-padding" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Наши направления</h1>
+            <div id="features-wrapper">
+              <div class="col-md-4 wp2">
+                <div class="icon">
+                  <i class="fa fa-euro"></i>
+                </div>
+                <h2>Европа</h2>
+                <p>Приглашаем Вас осуществить поездку в страны Западной Европы на комфортабельных автобусах белорусских автомобильных перевозчиков</p>
+              </div>
+              <div class="col-md-4 wp2 delay-05s">
+                <div class="icon">
+                  <i class="fa fa-plane"></i>
+                </div>
+                <h2>Аэровокзалы</h2>
+                <p>Белорусские автомобильные перевозчики осуществляют доставку пассажиров В Национальный аэропорт "Минск", а также в международные
+                  аэропорты дальнего и ближнего зарубежья</p>
+              </div>
+              <div class="col-md-4 wp2 delay-1s">
+                <div class="icon">
+                  <i class="fa fa-car"></i>
+                </div>
+                <h2>Ближнее зарубежье</h2>
+                <p>Предлагаем Вашему вниманию поездки в страны, граничащие с Беларусью. Вас ждут Киев, Москва, Варшава, Белосток, Вильнюс,
+                  Каунас, Рига и многие другие города</p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="transport text-center section-padding" id="transport">
+      <div class="container">
+        <div class="row">
+          <h1 class="arrow">Наш подвижной состав</h1>
+          <div id="transportSlider">
+            <ul class="slides">
+              <li>
+                <div class="col-md-4 wp4">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img src="img/maz-251.jfif" alt="Transport Item">
+                      <div class="overlay">
+                        <a href="#" class="expand"><i class="fa fa-search"></i><br>Узнать больше</a>
+                        <a class="close-overlay hidden">x</a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>МАЗ-251</h2>
+                  <p>Предназначен для эксплуатации на дальних междугородних маршрутах, международных рейсах, для перевозки 
+                    туристических групп. Комфортабельные сиденья, мощная система кондиционирования, мягкая подвеска,
+                    наличие мини-кухни - все это позволяет совершать на автобусе поездки практически любой дальности</p>
+                </div>
+                <div class="col-md-4 wp4 delay-05s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img src="img/irisbus-domino.jfif" alt="Transport Item">
+                      <div class="overlay">
+                        <a href="#" class="expand"><i class="fa fa-search"></i><br>Узнать больше</a>
+                        <a class="close-overlay hidden">x</a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>Irisbus Domino</h2>
+                  <p>Туристический автобус-люкс Domino предназначен для самых взыскательных пассажиров. Эта модель отличается 
+                    первоклассными материалами, большим внутренним пространством и исключительно удачным дизайном</p>
+                </div>
+                <div class="col-md-4 wp4 delay-1s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img src="img/iveco-magelys.jpg" alt="Transport Item">
+                      <div class="overlay">
+                        <a href="#" class="expand"><i class="fa fa-search"></i><br>Узнать больше</a>
+                        <a class="close-overlay hidden">x</a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>Iveco Magelys</h2>
+                  <p>Iveco Magelys Line - это самая простая версия автобуса, предназначенная прежде всего для линий среднего 
+                    междугороднего сообщения, а также для комфортной доставки пассажиров в аэропорты. Стильный внешний вид 
+                    отлично сочетается с высоким качеством</p>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-4 wp4">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img src="img/scania-irizar.jpg" alt="Transport Item">
+                      <div class="overlay">
+                        <a href="#" class="expand"><i class="fa fa-search"></i><br>Узнать больше</a>
+                        <a class="close-overlay hidden">x</a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>Scania Irizar</h2>
+                  <p>Scania Irizar i6 - это универсальный высококлассный автобус, идеально подходящий для междугородних и туристических 
+                    перевозок пассажиров. В линейке автобусов Irizar занимает особое место благодаря своим техническим характеристикам, 
+                    конструкции и высокому уровню комфорта</p>
+                </div>
+                <div class="col-md-4 wp4 delay-05s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img src="img/setra-515.jpg" alt="Transport Item">
+                      <div class="overlay">
+                        <a href="#" class="expand"><i class="fa fa-search"></i><br>Узнать больше</a>
+                        <a class="close-overlay hidden">x</a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>Setra S 515 HD</h2>
+                  <p>Модель S 515 HD выступает в популярном классе 12-метровых автобусов и предлагает за счет высокого пола большое 
+                    пространство для багажа. Короткая поездка или дальнее путешествие - это идеальный автобус для самых различных задач</p>
+                </div>
+                <div class="col-md-4 wp4 delay-1s">
+                  <div class="overlay-effect effects clearfix">
+                    <div class="img">
+                      <img src="img/maz-231.jfif" alt="Transport Item">
+                      <div class="overlay">
+                        <a href="#" class="expand"><i class="fa fa-search"></i><br>Узнать больше</a>
+                        <a class="close-overlay hidden">x</a>
+                      </div>
+                    </div>
+                  </div>
+                  <h2>МАЗ-231</h2>
+                  <p>МАЗ-231 – универсальная модель для пригородных и междугородных перевозок. Автобус предназначен, прежде всего, для 
+                    маршрутов ближнего следования</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Свяжитесь с нами! Мы всегда вам рады!</h1>
+          </div>
+        </div>
+        <div class="row contact-details">
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-map-marker"></i><span>Адрес</span></h2>
+              <p>222015, Минск, ул. Платонова, 39</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-mobile"></i><span>Телефон</span></h2>
+              <p>+375 17 293 12 34</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-paper-plane"></i><span>Электронная почта</span></h2>
+              <p><a href="#">ticketbus@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="social-buttons">
+              <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="legals">
+              <li><a href="#">Условия эксплуатации</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 credit">
+            <p>2020 &copy; ООО "Белтранском"</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>
