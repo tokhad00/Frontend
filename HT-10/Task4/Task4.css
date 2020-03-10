@@ -1,0 +1,13 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #669;
+}
