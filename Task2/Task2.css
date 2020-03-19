@@ -1,0 +1,50 @@
+body {
+    height: 300%;
+}
+
+#show-menu {
+    margin: 50px;
+}
+
+nav {
+	background-color: #242830;
+	margin-top: -1px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	color: rgba(255, 255, 255, 0.6);
+	display: block;
+	border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	padding-left: 0;
+	position: relative;
+}
+
+nav ul li:last-child {
+	border: none;
+}
+
+nav ul li a { 
+	color: rgba(255, 255, 255, 0.6); 
+	display: block;
+	padding: 10px;
+	transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-webkit-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	padding-left: 0; 
+	position: relative; 
+}
+
+nav ul li a:hover, nav ul li a:focus {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text-field {
+    margin: 30px;
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid #AAF;
+    background-color: whitesmoke;
+}
