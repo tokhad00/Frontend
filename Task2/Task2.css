@@ -1,0 +1,38 @@
+#container {
+	width: 1300px;
+	height: 500px;
+	border: 2px solid black;
+	position: absolute;
+	left: 10px;
+  	top: 10px;
+}
+
+.block {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+#pink-block {
+	background-color: pink;
+	left: 10px;
+	top: 10px;
+}
+
+#green-block {
+	background-color: green;
+	left: 300px;
+	top: 45px;
+}
+
+#blue-block {
+	background-color: blue;
+	left: 700px;
+	top: 200px;
+}
+
+#purple-block {
+	background-color: purple;
+	left: 1000px;
+	top: 60px;
+}
