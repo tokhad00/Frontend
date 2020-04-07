@@ -1,0 +1,53 @@
+[{
+    "address": "г. Могилев, Днепровский б-р, 50",
+    "averageOfBuyers": 2450,
+    "area": 850,
+    "year": 2008
+
+}, {
+    "address": "г. Могилев, пр. Пушкинский, 12",
+    "averageOfBuyers": 2115,
+    "area": 730,
+    "year": 2012
+
+}, {
+    "address": "г. Поставы, ул. Юбилейная, 30",
+    "averageOfBuyers": 1690,
+    "area": 265,
+    "year": 2010
+
+}, {
+    "address": "г. Борисов, ул. Гагарина, 87",
+    "averageOfBuyers": 1300,
+    "area": 495,
+    "year": 2020
+
+}, {
+    "address": "г. Гомель, ул. Калинина, 7",
+    "averageOfBuyers": 1560,
+    "area": 690,
+    "year": 2018
+
+}, {
+    "address": "г. Толочин, ул. Володарского, 9",
+    "averageOfBuyers": 1715,
+    "area": 885,
+    "year": 2013
+
+}, {
+    "address": "г. Добруш, пр. Мира, 7",
+    "averageOfBuyers": 930,
+    "area": 130,
+    "year": 2016
+
+}, {
+    "address": "г. Жлобин, ул. Шоссейная, 199",
+    "averageOfBuyers": 1800,
+    "area": 310,
+    "year": 2019
+}, {
+    "address": "г. Червень, ул. К. Маркса, 39",
+    "averageOfBuyers": 1800,
+    "area": 310,
+    "year": 2019
+}]

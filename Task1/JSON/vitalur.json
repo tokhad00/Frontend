@@ -1,0 +1,48 @@
+[{
+    "address": "г. Минск, ул. Космонавтов, 28",
+    "averageOfBuyers": 2700,
+    "area": 1550,
+    "year": 2005
+
+}, {
+    "address": "г. Минск, ул. Жиновича, 7",
+    "averageOfBuyers": 1060,
+    "area": 965,
+    "year": 2007
+
+}, {
+    "address": "г. Минск, ул. Рафиева, 156",
+    "averageOfBuyers": 1830,
+    "area": 540,
+    "year": 2016
+
+}, {
+    "address": "г. Минск, ул. Восточная, 129",
+    "averageOfBuyers": 955,
+    "area": 325,
+    "year": 2009
+
+}, {
+    "address": "г. Бобруйск, ул. Минская, 149",
+    "averageOfBuyers": 1115,
+    "area": 515,
+    "year": 2010
+
+}, {
+    "address": "г. Лида, ул. Коммунистическая, 50",
+    "averageOfBuyers": 1300,
+    "area": 685,
+    "year": 2011
+
+}, {
+    "address": "г. Солигорск, ул. Октябрьская, 38",
+    "averageOfBuyers": 1945,
+    "area": 1030,
+    "year": 2018
+
+}, {
+    "address": "г. Несвиж, ул. Советская, 6",
+    "averageOfBuyers": 805,
+    "area": 300,
+    "year": 2013
+}]

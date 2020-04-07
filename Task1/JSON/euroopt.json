@@ -1,0 +1,48 @@
+[{
+    "address": "г. Минск, Старовиленский тракт, 77",
+    "averageOfBuyers": 3800,
+    "area": 1300,
+    "year": 2012
+
+}, {
+    "address": "г. Минск, ул. Асаналиева, 44",
+    "averageOfBuyers": 980,
+    "area": 230,
+    "year": 2016
+
+}, {
+    "address": "г. Минск, ул. Алибегова, 13",
+    "averageOfBuyers": 1415,
+    "area": 350,
+    "year": 2014
+
+}, {
+    "address": "г. Минск, ул. Багратиона, 55Б",
+    "averageOfBuyers": 660,
+    "area": 90,
+    "year": 2017
+
+}, {
+    "address": "г. Минск, ул. Бачило, 17",
+    "averageOfBuyers": 705,
+    "area": 110,
+    "year": 2018
+
+}, {
+    "address": "г. Минск, ул. Бирюзова, 11",
+    "averageOfBuyers": 2165,
+    "area": 325,
+    "year": 2012
+
+}, {
+    "address": "г. Минск, ул. Богдановича, 116",
+    "averageOfBuyers": 1135,
+    "area": 150,
+    "year": 2015
+
+}, {
+    "address": "г. Минск, ул. Ботаническая, 5А",
+    "averageOfBuyers": 2300,
+    "area": 295,
+    "year": 2014
+}]

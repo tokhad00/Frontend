@@ -1,0 +1,63 @@
+[{
+    "address": "г. Минск, ул. Вокзальная, 28",
+    "averageOfBuyers": 985,
+    "area": 350,
+    "year": 2009
+
+}, {
+    "address": "г. Минск, ул. Калинина, 1А",
+    "averageOfBuyers": 2190,
+    "area": 890,
+    "year": 2013
+
+}, {
+    "address": "г. Бобруйск, ул. Ванцетти, 9Г",
+    "averageOfBuyers": 1705,
+    "area": 740,
+    "year": 2019
+
+}, {
+    "address": "г. Минск, ул. Гагарина, 39",
+    "averageOfBuyers": 1530,
+    "area": 635,
+    "year": 2018
+
+}, {
+    "address": "г. Могилев, пр. Пушкинский, 39-66",
+    "averageOfBuyers": 1050,
+    "area": 125,
+    "year": 2015
+
+}, {
+    "address": "г. Борисов, ул. Днепровская, 29",
+    "averageOfBuyers": 835,
+    "area": 190,
+    "year": 2017
+
+}, {
+    "address": "г. Лида, ул. Пролыгина, 75",
+    "averageOfBuyers": 875,
+    "area": 210,
+    "year": 2013
+
+}, {
+    "address": "г. Мозырь, ул. Студенческая, 43",
+    "averageOfBuyers": 1200,
+    "area": 330,
+    "year": 2011
+} , {
+    "address": "г. Бобруйск, ул. Кутепова, 16А",
+    "averageOfBuyers": 715,
+    "area": 250,
+    "year": 2015
+} , {
+    "address": "г. Минск, ул. Хмельницкого, 1",
+    "averageOfBuyers": 640,
+    "area": 160,
+    "year": 2018
+} , {
+    "address": "г. Минск, ул. Ташкентская, 12",
+    "averageOfBuyers": 905,
+    "area": 295,
+    "year": 2012
+}]
