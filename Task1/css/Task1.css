@@ -1,0 +1,53 @@
+body {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+    margin: 50px;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+td {
+    border-bottom: 1px solid rgb(51, 177, 20);
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+
+tr:hover td {
+    background: #8aa3a1;
+}
+
+th:hover {
+	background-color: #6678b1;
+}
+
+.name-button {
+    cursor: pointer;
+}
+
+#markets-info {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.card {
+    background-color: honeydew;
+    border-radius: 15px;
+    padding: 10px;
+}

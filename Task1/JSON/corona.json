@@ -1,0 +1,58 @@
+[{
+    "address": "г. Минск, пр. Победителей, 65",
+    "averageOfBuyers": 12700,
+    "area": 5500,
+    "year": 2012
+
+}, {
+    "address": "г. Минск, ул. Кальварийская, 24",
+    "averageOfBuyers": 9430,
+    "area": 2300,
+    "year": 2006
+
+}, {
+    "address": "г. Гродно, пр. Космонавтов, 81",
+    "averageOfBuyers": 6200,
+    "area": 1800,
+    "year": 2014
+
+}, {
+    "address": "г. Гомель, ул. Советская, 200",
+    "averageOfBuyers": 8500,
+    "area": 3600,
+    "year": 2014
+
+}, {
+    "address": "г. Брест, ул. Московская, 210",
+    "averageOfBuyers": 10345,
+    "area": 4160,
+    "year": 2009
+
+}, {
+    "address": "г. Витебск, пр. Строителей, 11",
+    "averageOfBuyers": 8955,
+    "area": 3930,
+    "year": 2011
+
+}, {
+    "address": "г. Борисов, ул. III Интернационала, 5",
+    "averageOfBuyers": 9685,
+    "area": 2750,
+    "year": 2014
+
+}, {
+    "address": "г. Барановичи, ул. Тельмана, 60",
+    "averageOfBuyers": 5900,
+    "area": 1990,
+    "year": 2015
+}, {
+    "address": "г. Солигорск, ул. К. Заслонова, 29",
+    "averageOfBuyers": 7400,
+    "area": 2300,
+    "year": 2015
+}, {
+    "address": "г. Шклов, ул. Гончарная, 47",
+    "averageOfBuyers": 3890,
+    "area": 1610,
+    "year": 2015
+}]
