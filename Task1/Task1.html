@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Задание 1</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/Task1.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body id="top">
+    <header id="home">
+      <section class="topbar" id="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-right navicon">
+              <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center inner">
+              <h1 class="animated title-text">ШЕСТОЙ ЭЛЕМЕНТ</h1>
+              <p class="animated">Интернет-магазин бытовой техники</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="route text-center section-padding" id="route">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="tab">
+              <button type="button" class="tablinks" id="open-cart-button" data-toggle="modal" data-target="#cart-modal"></button>
+              <button class="tablinks" id="clear-cart-button"></button>
+            </div>
+            <h3 id="number-of-products"></h3>
+            <div id="products-list"></div>
+            <div class="modal fade" id="cart-modal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title" id="cartModalLabel">Корзина товаров</h3>
+                  </div>
+                  <div class="modal-body">
+                    <div id="cart-container"></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="arrow">Наши контакты</h1>
+          </div>
+        </div>
+        <div class="row contact-details">
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-map-marker"></i><span>Адрес</span></h2>
+              <p>222015, Минск, ул. Козлова, 15</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-mobile"></i><span>Телефон</span></h2>
+              <p>+375 17 293 12 34</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="light-box box-hover">
+              <h2><i class="fa fa-paper-plane"></i><span>Электронная почта</span></h2>
+              <p><a href="#">6element@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="social-buttons">
+              <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-vk"></i></a></li>
+              <li><a href="#" class="social-btn"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="legals">
+              <li><a href="#">Условия эксплуатации</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 credit">
+            <p>2020 &copy; ООО "Рога и Копыта"</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Task1.js"></script>
+  </body>
+</html>
