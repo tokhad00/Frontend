@@ -1,0 +1,40 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Varela Round', sans-serif;
+	padding: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+	margin: 30px;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
+}
+
+td {
+    border-bottom: 1px solid rgb(51, 177, 20);
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+}
+
+tr:hover td {
+    background: #8aa3a1;
+}
+
+#weather-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    color: darkslategrey;
+}
