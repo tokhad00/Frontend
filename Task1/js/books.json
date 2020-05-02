@@ -1,0 +1,43 @@
+[{
+    "name": "Ночь перед Рождеством",
+    "numberOfWords": "97000",
+    "year": 2002,
+    "author": "Н.В. Гоголь",
+    "language": "Русский",
+    "nameOfRedaction": "Народная Асвета"
+}, {
+    "name": "Преступление и наказание",
+    "numberOfWords": "305200",
+    "year": 2009,
+    "author": "Ф.М. Достоевский",
+    "language": "Русский",
+    "nameOfRedaction": "Вышэйшая Школа"
+}, {
+    "name": "Маленький принц",
+    "numberOfWords": "84950",
+    "year": 2013,
+    "author": "А. де Сент-Экзюпери",
+    "language": "Французский",
+    "nameOfRedaction": "Восход Солнца"
+}, {
+    "name": "Портрет Дориана Грея",
+    "numberOfWords": "737690",
+    "year": 2002,
+    "author": "О. Уайльд",
+    "language": "Английский",
+    "nameOfRedaction": "Невское"
+}, {
+    "name": "1984",
+    "numberOfWords": "506500",
+    "year": 2002,
+    "author": "Дж. Оруэлл",
+    "language": "Английский",
+    "nameOfRedaction": "Белая страница"
+}, {
+    "name": "Каласы пад сярпом тваiм",
+    "numberOfWords": "514200",
+    "year": 2002,
+    "author": "В.С. Короткевич",
+    "language": "Белорусский",
+    "nameOfRedaction": "Широкое поле"
+}]
